@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #D3D3D3;
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    color: #000;
+    font-weight: bold;
+}
+.barra{
+    float: right;
+}
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    text-decoration: none;
+    color: #000;
+}
+.barra a:hover{
+    color: #fff;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(img/nike-5126389_1280.jpg);
+    background-size: cover;
+}
+.call{
+    width: 30%;
+    color: #000;
+    border: 5px solid;
+    float: right;
+    padding: 20px;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: #000;
+}
+.call p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.call a{
+    color: #000;
+    padding: 10px 20px;
+    border: 2px solid #000;
+}
+.call a:hover{
+    background-color: #fff;
+    border: 3px solid #000;
+}
